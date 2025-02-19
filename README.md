@@ -2,6 +2,10 @@
 
 This is a sample Rails application that uses the MCP protocol to call a remote MCP server.
 
+And it introduces how to use `mcp-rb` gem to call the MCP server.
+
+https://github.com/funwarioisii/mcp-rb
+
 ## How to run
 
 ```bash
