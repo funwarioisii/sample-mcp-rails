@@ -1,24 +1,24 @@
-# README
+# sample-mcp-rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a sample Rails application that uses the MCP protocol to call a remote MCP server.
 
-Things you may want to cover:
+## How to run
 
-* Ruby version
+```bash
+# install dependencies
+bundle install
 
-* System dependencies
+# run the Rails application
+rails s
 
-* Configuration
+# create HTTP request to the Rails application
+curl http://localhost:3000/hello
+```
 
-* Database creation
+## Architecture
 
-* Database initialization
+This project has `/mcps` directory that contains the MCP server.
+There is a sample MCP server in `mcps/hello_world.rb`.
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+When the Rails application starts, it will connect to the MCP server.
+see: `config/initializers/mcp_hello_world.rb`
