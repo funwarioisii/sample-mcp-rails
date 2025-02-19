@@ -151,6 +151,7 @@ GEM
       net-smtp
     marcel (1.0.4)
     matrix (0.4.2)
+    mcp-rb (0.3.0)
     mini_mime (1.1.5)
     minitest (5.25.4)
     msgpack (1.8.0)
@@ -372,6 +373,7 @@ DEPENDENCIES
   importmap-rails
   jbuilder
   kamal
+  mcp-rb (~> 0.3.0)
   propshaft
   puma (>= 5.0)
   rails (~> 8.0.1)
