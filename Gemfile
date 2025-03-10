@@ -62,4 +62,4 @@ group :test do
   gem "selenium-webdriver"
 end
 
-gem "mcp-rb", "~> 0.3.1"
+gem "mcp-rb", "~> 0.3.2"
